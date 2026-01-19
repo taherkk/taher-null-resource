@@ -1,0 +1,6 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: Echo JSON via shell
+    shell: |
+      echo '{"status":"ok","count":3,"enabled":true}'
