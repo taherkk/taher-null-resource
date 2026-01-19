@@ -1,1 +1,0 @@
-echo "{"test_output": "custom workflow outputs"}"
