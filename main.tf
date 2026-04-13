@@ -13,9 +13,9 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "taher-test-bucket"
+  bucket = var.bucket-name
 
   tags = {
-      Environment = "Test"
+    Environment = var.tag-secret
   }
 }
