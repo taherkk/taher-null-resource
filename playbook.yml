@@ -3,4 +3,4 @@
   tasks:
   - name: Echo JSON via shell
     shell: |
-      echo '{"status":"ok","count":3,"enabled":true}'
+      echo '{"status":"okay","count":3,"enabled":true}'
