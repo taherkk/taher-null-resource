@@ -28,6 +28,9 @@ resource "null_resource" "hello_script" {
 output "message_lengths" {
   value = [for i in range(var.resource_count) : length("Hello, World!")]
 }
+output "message_lengths1" {
+  value = [for i in range(var.resource_count) : length("Hello, World!")]
+}
 
 output "message_lengths_sensitive" {
   sensitive = true
