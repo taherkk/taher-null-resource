@@ -29,3 +29,6 @@ output "message_lengths" {
   value = [for i in range(var.resource_count) : length("Hello, World!")]
 }
 
+output "message_lengths_new" {
+  value = [for i in range(var.resource_count) : length("Hello, World!")]
+}
