@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo '{"status":"ok","count":3,"enabled":true}'
+echo '{"status":"ok","count":3,"enabled":false}'
